@@ -4,5 +4,5 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgres://postgres:postgres@localhost:5432/prisma-test_development"
+  url      = "postgres://postgres:postgres@localhost:5432/boardgames_development"
 }
