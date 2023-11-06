@@ -1,3 +1,5 @@
+import prisma from "./prisma.js";
+
 import BoardGameSeeder from "./seeders/BoardGameSeeder.js";
 
 const main = async () => {
