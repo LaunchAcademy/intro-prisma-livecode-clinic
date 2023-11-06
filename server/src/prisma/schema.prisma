@@ -6,3 +6,13 @@ datasource db {
   provider = "postgresql"
   url      = "postgres://postgres:postgres@localhost:5432/boardgames_development"
 }
+
+model BoardGame {
+  id                      Int         @id @default(autoincrement())
+  title                   String      @db.VarChar(255)
+  minimumAmountOfPlayers  Int         @db.Integer
+  maximumAmountOfPlayers  Int         @db.Integer
+  description             String?     @db.Text
+  createdAt               DateTime    @default(now()) @db.Timestamp(6)
+  updatedAt               DateTime    @default(now()) @db.Timestamp(6)
+}
