@@ -7,14 +7,14 @@
     "e2e"
   ],
   "scripts": {
-    "build:client": "yarn workspace prisma-test-client build",
-    "dev": "yarn workspace prisma-test-server dev",
-    "dev:debug": "yarn workspace prisma-test-server dev:debug",
-    "heroku-postbuild": "yarn workspace prisma-test-client build",
-    "start": "yarn workspace prisma-test-server start",
-    "dev:cypress": "yarn workspace prisma-test-server dev:e2e",
-    "e2e:open": "yarn workspace prisma-test-e2e e2e:open",
-    "e2e:run": "yarn workspace prisma-test-e2e e2e:run"
+    "build:client": "yarn workspace boardgames-client build",
+    "dev": "yarn workspace boardgames-server dev",
+    "dev:debug": "yarn workspace boardgames-server dev:debug",
+    "heroku-postbuild": "yarn workspace boardgames-client build",
+    "start": "yarn workspace boardgames-server start",
+    "dev:cypress": "yarn workspace boardgames-server dev:e2e",
+    "e2e:open": "yarn workspace boardgames-e2e e2e:open",
+    "e2e:run": "yarn workspace boardgames-e2e e2e:run"
   },
   "engines": {
     "node": "^16.18"
